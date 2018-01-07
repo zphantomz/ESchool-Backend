@@ -1,7 +1,7 @@
 import json
 
 
-class ResUsers(object):
+class UsersResource(object):
     auth = {'auth_disabled': True}
 
     def on_get(self, req, resp):
